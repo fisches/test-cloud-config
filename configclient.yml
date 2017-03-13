@@ -4,3 +4,17 @@ server:
   port: 8000
 message:
   greeting: Hello Romain!
+---
+spring:  
+  profiles: development
+server:  
+  port: 8080
+message:
+  greeting: Hello dev!
+---
+spring:  
+  profiles: prod
+server:  
+  port: 9999
+message:
+  greeting: Hello prod!
