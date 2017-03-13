@@ -6,7 +6,7 @@ message:
   greeting: Hello Romain!
 ---
 spring:  
-  profiles: development
+  profiles: dev
 server:  
   port: 8088
 message:
