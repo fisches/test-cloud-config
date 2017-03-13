@@ -6,7 +6,7 @@ message:
   greeting: Hello Romain!
 ---
 spring:  
-  profiles: dev
+  profiles: dev,webpack-dev-server
 server:  
   port: 8088
 message:
