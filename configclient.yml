@@ -10,7 +10,7 @@ spring:
 server:  
   port: 8088
 message:
-  greeting: Hello dev!
+  greeting: Hello dev test!
 ---
 spring:  
   profiles: prod
