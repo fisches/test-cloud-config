@@ -1,14 +1,12 @@
 configuration:  
   projectName: configclient
 server:
-  port: 8000
+  port: 9000
 message:
   greeting: Hello Romain!
 ---
 spring:  
   profiles: dev,webpack-dev-server
-server:  
-  port: 8088
 message:
   greeting: Hello dev toto!
 ---
