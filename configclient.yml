@@ -9,6 +9,18 @@ spring:
   profiles: dev
 message:
   greeting: Hello dev toto!
+galerieslafayette:
+  front:
+    features:
+      guest-checkout:
+        enabled: true
+        account-create-enable: false
+      suggestions:
+        enabled: true
+      http-https:
+        enabled: false
+      target-to-sell:
+      enabled: true
 ---
 spring:  
   profiles: prod
