@@ -20,7 +20,7 @@ galerieslafayette:
       http-https:
         enabled: false
       target-to-sell:
-      enabled: true
+        enabled: true
 ---
 spring:  
   profiles: prod
