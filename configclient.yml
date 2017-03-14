@@ -6,7 +6,7 @@ message:
   greeting: Hello Romain!
 ---
 spring:  
-  profiles: dev,webpack-dev-server
+  profiles: dev
 message:
   greeting: Hello dev toto!
 ---
