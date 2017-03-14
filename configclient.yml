@@ -16,7 +16,7 @@ galerieslafayette:
         enabled: true
         account-create-enable: false
       suggestions:
-        enabled: true
+        enabled: false
       http-https:
         enabled: false
       target-to-sell:
